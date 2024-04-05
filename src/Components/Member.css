@@ -1,0 +1,47 @@
+.member-name {
+    font-size: 25px;
+    color: #333;
+    font-weight: bold; /* Example to make the name bold */
+    text-align: left;
+    padding: 0 50px; /* Padding around the bio text */
+    margin-top: 50px;
+}
+
+.member-role {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 50px; /* Padding around the bio text */
+}
+
+.member-detail {
+    font-size: 15px;
+    color: #333;
+    text-align: left;
+    padding: 0 50px; /* Padding around the bio text */
+}
+
+.intro-bio {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 50px; /* Padding around the bio text */
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.member-image {
+    height: 200px; /* Set a fixed height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* This ensures the image covers the area, useful if you set both width and height */
+}
+
+.member-bio {
+    font-size: 13px;
+    color: #333;
+    font-weight: normal; /* Example to make the name bold */
+    text-align: justify; /* Example to center-align the name */
+    padding: 0 50px; /* Padding around the bio text */
+}

@@ -1,0 +1,94 @@
+
+
+.aboutContent-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.introTitle {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+    /*margin-bottom: 10px;*/
+}
+
+.gridTitle {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.detailedIntro {
+    padding: 0 100px; /* Padding around the bio text */
+    text-align: justify;
+    font-size: 1em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates two columns */
+    grid-template-rows: repeat(3, auto); /* Creates two rows */
+    gap: 10px 25px;
+}
+
+
+.gridIntro {
+    padding: 0 10px; /* Padding around the bio text */
+    text-align: justify;
+    margin-top: 1px;
+}
+
+.grid-item {
+    max-width: 500px; /* Sets the maximum width for each grid item */
+    margin: auto; /* Centers the item within the grid cell if it's narrower than the cell */
+}
+.grid-2x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    grid-template-rows: repeat(2, 1fr); /* Creates two rows */
+    gap: 2px 5px; /* Adjust the gap between grid items */
+}
+
+.grid-img img {
+    width: 100%; /* Ensures images expand to fill their containers */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Adjusts how images fit in their containers */
+}
+
+.responsive-img {
+    width: 100%; /* Make the image responsive, allowing it to scale with its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    max-width: 100%; /* Prevent the image from exceeding the width of its container */
+}
+
+.social-media-row {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    gap: 20px; /* Adjust the space between icons */
+    margin-top: 20px;
+}
+
+.social-media-row a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Keep icon color consistent with your design */
+}
+
+.social-media-row i {
+    font-size: 24px; /* Adjust icon size */
+    transition: transform 0.3s; /* Smooth transformation on hover */
+}
+
+.social-media-row a:hover i {
+    transform: scale(1.2); /* Scale icons on hover */
+}
+
+.social-media-row a i {
+    font-size: 40px; /* Adjust this value to make icons larger */
+}
+

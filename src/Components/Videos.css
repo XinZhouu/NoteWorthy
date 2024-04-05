@@ -1,0 +1,32 @@
+
+.video-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.video-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.youtube-text {
+    /* Styles for the text */
+    font-size: 18px;
+    margin-top: 20px; /* Adjust the space between the slider and the text */
+    text-align: center;
+    font-weight: lighter;
+}
+
+.youtube-link {
+    /* Styles for the link */
+    color: red; /* YouTube's brand color */
+    text-decoration: none; /* Removes underline */
+}
+
+.youtube-link:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: red;
+}

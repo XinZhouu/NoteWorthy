@@ -1,0 +1,52 @@
+.body-background {
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Path to your image */
+    background-image: url('public/homepage1.jpg');
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.content-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@keyframes rainbow-animation {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+}
+
+.centered-text {
+    font-size: 5em;
+    font-weight: bold;
+    background: linear-gradient(90deg, yellow, lightyellow, skyblue, blue);
+    /*background: radial-gradient(circle, yellow, blue);*/
+    /*background: conic-gradient(from 0deg, yellow, blue);*/
+    /*background: repeating-linear-gradient(45deg, yellow, yellow 10px, blue 10px, blue 20px);*/
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-animation 5s linear infinite;
+    background-size: 200% auto;
+}
+
+.bottom-text {
+    font-size: 4em;
+    font-weight: normal;
+    align-self: center;
+}

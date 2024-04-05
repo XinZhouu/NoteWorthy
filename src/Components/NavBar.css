@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* the background of the navigation bar */
+    background-color: transparent;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-logo {
+    height: 100px; /* Adjust based on your logo */
+    margin-right: 60px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 60px;
+}
+
+.home-link {
+    outline: 0.3px solid white;
+    outline-offset: 7px;
+}
+
+.nav-links a:hover {
+    outline: 0.3px solid white; /* Creates a 0.5px solid white outline */
+    outline-offset: 7px; /* Optional: Adds space between the link text and the outline */
+    color: white;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white; /* Default text color */
+    padding: 10px; /* Example padding */
+    /* Add other styling as needed */
+}
+
+.active {
+    outline: 0.3px solid white;
+    outline-offset: 7px;
+}

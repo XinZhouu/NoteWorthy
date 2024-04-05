@@ -1,0 +1,19 @@
+.members-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.ex-text {
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
